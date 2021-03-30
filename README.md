@@ -30,10 +30,10 @@ $ sudo chmod +x /usr/local/bin/mycli
 $ mycli --version
 ```
 
-- 1.24.1
+- 1.24.1-slim
 
 ```bash
-$ sudo curl -s -L --fail https://raw.githubusercontent.com/lord-of-dock/mysql-mycli/main/1.24.1/run.sh -o /usr/local/bin/mycli
+$ sudo curl -s -L --fail https://raw.githubusercontent.com/lord-of-dock/mysql-mycli/main/slim/1.24.1/run.sh -o /usr/local/bin/mycli
 $ sudo chmod +x /usr/local/bin/mycli
 ```
 
