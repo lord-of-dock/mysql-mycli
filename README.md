@@ -15,13 +15,23 @@
 ```sh
 docker run --rm -it \
   --name mysql-mycli \
-  lord-of-dock/mysql-mycli:1.24.1-slim --version
+  sinlov/mysql-mycli:latest --version
 ```
 
 ### as shell use
 
+- latest
+
 ```bash
-$ sudo curl -s -L --fail https://raw.githubusercontent.com/sinlov/mysql-mycli/main/1.24.1/run.sh -o /usr/local/bin/mycli
+$ sudo curl -s -L --fail https://raw.githubusercontent.com/lord-of-dock/mysql-mycli/main/latest/run.sh -o /usr/local/bin/mycli
+$ sudo chmod +x /usr/local/bin/mycli
+$ mycli --version
+```
+
+- 1.24.1
+
+```bash
+$ sudo curl -s -L --fail https://raw.githubusercontent.com/lord-of-dock/mysql-mycli/main/1.24.1/run.sh -o /usr/local/bin/mycli
 $ sudo chmod +x /usr/local/bin/mycli
 ```
 
@@ -37,7 +47,7 @@ networks:
 services:
   star-signal:
     container_name: 'mysql-mycli'
-    image: lord-of-dock/mysql-mycli:1.24.1-slim # https://hub.docker.com/r/sinlov/mysql-mycli/tags?page=1&ordering=last_updated
+    image: sinlov/mysql-mycli:1.24.1-slim # https://hub.docker.com/r/sinlov/mysql-mycli/tags?page=1&ordering=last_updated
     environment:
       - MYCLI_MYSQL_HOST=0.0.0.0
       - MYCLI_MYSQL_DATABASE=dbtest
