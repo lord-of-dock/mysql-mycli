@@ -6,7 +6,7 @@
 
 - repo [https://github.com/lord-of-dock/mysql-mycli#as-shell-use](https://github.com/lord-of-dock/mysql-mycli#as-shell-use)
 
-- docker hub see https://hub.docker.com/r/sinlov/mysql-mycli
+- docker hub see [https://hub.docker.com/r/sinlov/mysql-mycli](https://hub.docker.com/r/sinlov/mysql-mycli)
 
 ## mycl document
 
