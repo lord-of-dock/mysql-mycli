@@ -5,8 +5,8 @@
 # https://hub.docker.com/_/python?tab=tags&page=1&ordering=last_updated&name=3.9
 FROM python:3.9.2-slim
 
-RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
-  pip -V
+# RUN pip config set global.index-url https://pypi.tuna.tsinghua.edu.cn/simple && \
+#   pip -V
 
 RUN pip install -U mycli==1.24.1 --no-cache-dir
 

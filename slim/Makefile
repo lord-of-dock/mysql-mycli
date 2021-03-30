@@ -1,4 +1,4 @@
-ROOT_DOCKER_IMAGE_NAME ?= lord-of-dock/mysql-mycli
+ROOT_DOCKER_IMAGE_NAME ?= sinlov/mysql-mycli
 ROOT_DOCKER_IMAGE_TAG = 1.24.1-slim
 ROOT_DOCKER_CONTAINER_NAME = mysql-mycli
 

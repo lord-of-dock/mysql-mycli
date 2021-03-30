@@ -1,4 +1,4 @@
-# mycl
+# mysql-mycli
 
 [![docker build](https://img.shields.io/docker/cloud/build/sinlov/mysql-mycli)](https://hub.docker.com/r/sinlov/mysql-mycli)
 [![docker version semver](https://img.shields.io/docker/v/sinlov/mysql-mycli?sort=semver)](https://hub.docker.com/r/sinlov/mysql-mycli/tags?page=1&ordering=last_updated)

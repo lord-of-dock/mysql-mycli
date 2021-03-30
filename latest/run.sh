@@ -6,7 +6,7 @@
 set -e
 
 VERSION="latest"
-IMAGE="lord-of-dock/mysql-mycli:$VERSION"
+IMAGE="sinlov/mysql-mycli:$VERSION"
 
 # Setup options for connecting to docker host
 if [ -z "$DOCKER_HOST" ]; then
