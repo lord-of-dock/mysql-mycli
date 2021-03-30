@@ -4,6 +4,8 @@
 [![docker version semver](https://img.shields.io/docker/v/sinlov/mysql-mycli?sort=semver)](https://hub.docker.com/r/sinlov/mysql-mycli/tags?page=1&ordering=last_updated)
 [![docker image size](https://img.shields.io/docker/image-size/sinlov/mysql-mycli)](https://hub.docker.com/r/sinlov/mysql-mycli)
 
+- repo [https://github.com/lord-of-dock/mysql-mycli#as-shell-use](https://github.com/lord-of-dock/mysql-mycli#as-shell-use)
+
 - docker hub see https://hub.docker.com/r/sinlov/mysql-mycli
 
 ## mycl document
